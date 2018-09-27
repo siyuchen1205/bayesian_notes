@@ -117,7 +117,7 @@ One aspect of Bayesian inference is that it separates *inference* from *decision
 In this framework, inference is a subset of decisions and **estimators** are a subset of decision rules.
 Choosing an estimate is an action that aims the minimize the loss of function of guessing a parameter value.
 
-Given $theta$ and its distribution $p(\theta)$ and a loss function $L(a, \theta)$,
+Given $\theta$ and its distribution $p(\theta)$ and a loss function $L(a, \theta)$,
 the optimal action $a^*$ from a set of actions $\mathcal{A}$ is
 $$
 a^* \arg \min_{a \in \mathcal{A}} \int p(\theta) L(a, \theta) \,d \theta .
